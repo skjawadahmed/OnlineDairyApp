@@ -45,7 +45,7 @@ An online personal diary application built using the **MERN stack (MongoDB, Expr
 - Node.js and npm
 - MongoDB (local or cloud via MongoDB Atlas)
 
-![Home Page](["Screenshot 2025-07-23 173754.png"](https://github.com/skjawadahmed/OnlineDairyApp/blob/89b54b6896507b411bce5540d5f20a3fd5201e64/Screenshot%202025-07-23%20173754.png))
+![Home Page]("backend/Screenshot 2025-07-23 173754.png")
 
 ### 🧩 Backend Setup
 
