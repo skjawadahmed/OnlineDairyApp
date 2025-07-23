@@ -74,18 +74,50 @@ Home Page ![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
 
 ### 🔹 1. Clone the Repositories
 
-```bash
-git clone https://github.com/skjawadahmed/online-diary-frontend.git
-git clone https://github.com/skjawadahmed/online-diary-backend.git
-
-### 🔧 Step Backend
+🔹 2. Setup the Backend
+bash
+Copy
+Edit
 cd online-diary-backend
 npm install
+Now, create a .env file inside the online-diary-backend directory:
 
-### create .env file inside the online-diary-backend directory
+env
+Copy
+Edit
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/online-diary
-Replace the URI with your MongoDB Atlas connection string if you're using the cloud.
+💡 Replace the URI with your MongoDB Atlas connection string if you're using the cloud.
 
-Start the backend server: npm run dev
+Start the backend server:
+
+bash
+Copy
+Edit
+npm run dev
+Backend is now running at: http://localhost:5000
+
+🔹 3. Setup the Frontend
+bash
+Copy
+Edit
+cd ../online-diary-frontend
+npm install
+Start the frontend app:
+
+bash
+Copy
+Edit
+npm run dev
+Frontend runs at: http://localhost:5173
+
+✅ Usage
+Open your browser and go to http://localhost:5173.
+
+You can now add, edit, and delete notes.
+
+All notes are sorted by most recent first and stored in your MongoDB database.
+
+
+
 
