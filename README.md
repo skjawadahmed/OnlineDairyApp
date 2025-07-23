@@ -45,11 +45,6 @@ An online personal diary application built using the **MERN stack (MongoDB, Expr
 - Node.js and npm
 - MongoDB (local or cloud via MongoDB Atlas)
 
-Home Page ![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
-
-
-
-
 ---
 
 ## 🖼️ UI Preview
