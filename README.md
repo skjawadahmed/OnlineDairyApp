@@ -63,10 +63,6 @@ An online personal diary application built using the **MERN stack (MongoDB, Expr
 
 ---
 
-online-diary-app/
-│
-├── online-diary-backend/ # Backend API (Express + MongoDB)
-└── online-diary-frontend/ # Frontend App (React + TypeScript + Tailwind)
 
 yaml
 Copy
