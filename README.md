@@ -60,4 +60,4 @@ cd frontend
 npm install
 npm run dev
 
-![Home Page]("C:\Users\Jawad\Pictures\Screenshots\Screenshot 2025-07-23 173754.png")
+![Home Page](Screenshot 2025-07-23 173754.png)
