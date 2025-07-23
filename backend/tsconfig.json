@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     // Modern JavaScript support
+    "module": "CommonJS",                // For Node.js
+    "rootDir": "./src",                  // Where your TypeScript code lives
+    "outDir": "./dist",                  // Where compiled JS goes
+    "esModuleInterop": true,             // Helps with imports
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                      // Enables strict typing
+    "skipLibCheck": true
+  }
+}
