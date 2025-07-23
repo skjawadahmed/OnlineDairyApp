@@ -34,39 +34,11 @@ An online personal diary application built using the **MERN stack (MongoDB, Expr
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 📦 Prerequisites
 - Node.js and npm
 - MongoDB (local or cloud via MongoDB Atlas)
-
----
-
-## 🖼️ UI Preview
-
-**Home Page:**  
-![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
-
----
-
-## ⚙️ Setup Instructions
-
-### 📦 Prerequisites
-
-- Node.js and npm installed
-- MongoDB installed locally or create a MongoDB Atlas cloud account
-
----
-
-
-yaml
-Copy
-Edit
 
 ---
 
