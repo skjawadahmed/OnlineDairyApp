@@ -68,12 +68,42 @@ Home Page ![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
 
 ---
 
+online-diary-app/
+│
+├── online-diary-backend/ # Backend API (Express + MongoDB)
+└── online-diary-frontend/ # Frontend App (React + TypeScript + Tailwind)
+
+yaml
+Copy
+Edit
+
+---
+
+## 🖼️ UI Preview
+
+**Home Page:**  
+![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 📦 Prerequisites
+
+- Node.js and npm installed
+- MongoDB installed locally or create a MongoDB Atlas cloud account
+
+---
+
 ### 🔧 Step-by-Step Setup
 
 ---
 
 ### 🔹 1. Clone the Repositories
 
+```bash
+git clone https://github.com/skjawadahmed/online-diary-frontend.git
+git clone https://github.com/skjawadahmed/online-diary-backend.git
 🔹 2. Setup the Backend
 bash
 Copy
@@ -118,6 +148,15 @@ You can now add, edit, and delete notes.
 
 All notes are sorted by most recent first and stored in your MongoDB database.
 
+🔄 APIs Used
+GET /api/notes – Get all notes
 
+POST /api/notes – Add a new note
 
+PUT /api/notes/:id – Edit a note
 
+DELETE /api/notes/:id – Delete a note
+
+🧑‍💻 Author
+Name: Sk Jawad Ahmed
+GitHub: @skjawadahmed
