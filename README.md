@@ -49,19 +49,43 @@ Home Page ![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
 
 
 
-### 🧩 Backend Setup
+
+---
+
+## 🖼️ UI Preview
+
+**Home Page:**  
+![Home Page](screenshots/Screenshot%202025-07-23%20173754.png)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 📦 Prerequisites
+
+- Node.js and npm installed
+- MongoDB installed locally or create a MongoDB Atlas cloud account
+
+---
+
+### 🔧 Step-by-Step Setup
+
+---
+
+### 🔹 1. Clone the Repositories
 
 ```bash
-cd backend
+git clone https://github.com/skjawadahmed/online-diary-frontend.git
+git clone https://github.com/skjawadahmed/online-diary-backend.git
+
+### 🔧 Step Backend
+cd online-diary-backend
 npm install
-# Create a .env file with the following:
-MONGO_URI=<your_mongo_connection_string>
+
+### create .env file inside the online-diary-backend directory
 PORT=5000
+MONGO_URI=mongodb://localhost:27017/online-diary
+Replace the URI with your MongoDB Atlas connection string if you're using the cloud.
 
-npm run dev
-
-cd frontend
-npm install
-npm run dev
-
+Start the backend server: npm run dev
 
